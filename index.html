@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bohdan Komarov</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="./fashion.css" rel="stylesheet" />
+    <style>
+        h2 {
+            text-transform: uppercase;
+            padding-left: 12px;
+        }
+        .sections {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-auto-rows: 1fr 1fr;
+        }
+        .section {
+            padding: 5px;
+        }
+        .section-name {
+            background-color: #667ACC;
+            color: #ffffff;
+        }
+        #education {
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+        }
+        .school {
+            text-align: center;
+            width: 200px;
+            border: solid #667ACC 1px;
+            margin: 10px;
+        }
+        .type {
+            background-color: #394EF7;
+            color: #ffffff;
+            border-bottom: solid #667ACC 1px;
+        }
+        .logo {
+            padding-top: 15px;
+        }
+        #hobbies {
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+            text-align: center;
+        }
+        .emoji {
+            font-size: 75px;
+        }
+        #contact {
+            font-size: 150%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Bohdan Komarov</h1>
+        <div class="sections">
+            <div class="section">
+                <div class="section-name"><h2>Profil zawodowy</h2></div>
+                <span>Pracuję jako analityk zgłoszeń serwisowych w Nokia Solutions and Networks.
+                Na obecnym stanowisku jestem odpowiedzialny za kontakt z klientami z Europy, Bliskiego Wschodu i Afryki (głównie w języku angielskim).
+                Obejmuje to zdalne wsparcie techniczne, organizowanie interwencji terenowych oraz zamawianie części zamiennych.
+                Nadzoruję też proces wdrażania nowych pracowników.<br/>
+                Posiadam siedmioletnie doświadczenie w obszarze obsługi klientów, zarówno indywidualnych, jak i biznesowych.
+                Szybko się uczę i potrafię uczyć innych.</span>
+            </div>
+            <div class="section">
+                <div class="section-name"><h2>Wykształcenie</h2></div>
+                <div id="education">
+                    <div class="school">
+                        <div class="type"><span>Wykształcenie wyższe</span></div>
+                        <a href="https://www.merito.pl/torun/"><img src="./img/wsb-merito-logo.jpg" class="logo" width="80%" alt="Logo WSB Merito"/></a><br/>
+                        <span style="font-weight: bold">WSB Merito w Toruniu</span><br/>
+                        <span>(2021-2024)</span><br/>
+                        <span>Kierunek: Design w Biznesie</span><br/>
+                        <span>Specjalizacja: Projektowanie Marki i Wizerunku Firmy</span>
+                    </div>
+                    <div class="school">
+                        <div class="type"><span>Wykształcenie średnie</span></div>
+                        <a href="http://kremenchuk-lyceum4.pl.sch.in.ua/"><img src="./img/lyceum-4-logo.jpg" class="logo" width="80%" alt="Logo IV Liceum"/></a><br/>
+                        <span style="font-weight: bold">IV Liceum w Krzemieńczuku</span><br/>
+                        <span>(2003-2014)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section-name"><h2>Hobby</h2></div>
+                <div id="hobbies">
+                    <div class="hobby">
+                        <div class="emoji">🧳</div>
+                        <span><a href="./pages/travel-pl.html">Podróżowanie</a></span>
+                    </div>
+                    <div class="hobby">
+                        <div class="emoji">🍳</div>
+                        <span><a href="./pages/cooking-pl.html">Gotowanie</a></span>
+                    </div></a>
+                    <div class="hobby">
+                        <div class="emoji">👨🏻‍💻</div>
+                        <span><a href="./pages/flags-pl.html">CSS</a></span>
+                    </div></a>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section-name"><h2>Kontakt</h2></div>
+                <ul id="contact">
+                    <li>+48 793 264 450</li>
+                    <li>bohdan.komarov.biz@gmail.com (<a href="mailto:bohdan.komarov.biz@gmail.com">wyślij maila</a>)</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <span class="copyright">© 2025 Bohdan Komarov</span>
+        <div class="icons">
+        <a href="https://www.facebook.com/bohdan.komarov/"><img src="./img/fb-ico.png" class="ico" width="20px" alt="Facebook icon"></a>
+        <a href="https://www.instagram.com/like.an.ox/"><img src="./img/ig-ico.png" class="ico" width="20px" alt="Instagram icon"></a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,59 @@
+h1 {
+    font-family: "Titillium Web", serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+h2 {
+    font-family: "Titillium Web", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+html, body {
+    font-family: "Titillium Web", serif;
+    font-weight: 300;
+    font-style: normal;
+    height: 100%;
+    display: flex;
+    margin-bottom: 0;
+    flex-direction: column;
+}
+main {
+  flex: 1;
+}
+footer {
+  display: flex;
+  min-height: 50px;
+  clear: both;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  background-color: #394EF7;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+.copyright {
+  flex: 1;
+  text-align: center;
+}
+.ico {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.titillium-web-light {
+    font-family: "Titillium Web", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+.titillium-web-regular {
+    font-family: "Titillium Web", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.titillium-web-semibold {
+  font-family: "Titillium Web", serif;
+  font-weight: 600;
+  font-style: normal;
+}
